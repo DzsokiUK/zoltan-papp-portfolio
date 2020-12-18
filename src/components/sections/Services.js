@@ -1,17 +1,17 @@
 import React from 'react'
 import styled from 'styled-components'
-import {StaticQuery, graphql} from 'gatsby'
+import { StaticQuery, graphql } from 'gatsby'
 import Header from '@sections/Header'
 
-import {Section, Container} from '@components/global'
+import { Section, Container } from '@components/global'
 import BackgroundImage from 'gatsby-background-image'
 
 import ExternalLink from '@common/ExternalLink'
 
-import {ReactComponent as Icon1} from '@static/callout/icon1.svg'
-import {ReactComponent as Icon2} from '@static/callout/icon2.svg'
-import {ReactComponent as Icon3} from '@static/callout/icon3.svg'
-import {ReactComponent as Icon4} from '@static/callout/icon4.svg'
+import { ReactComponent as Icon1 } from '@static/callout/icon1.svg'
+import { ReactComponent as Icon2 } from '@static/callout/icon2.svg'
+import { ReactComponent as Icon3 } from '@static/callout/icon3.svg'
+import { ReactComponent as Icon4 } from '@static/callout/icon4.svg'
 
 const CALLOUT = [
   {
@@ -37,7 +37,7 @@ const CALLOUT = [
 ]
 
 const LINKS = {
-  url: 'https://www.rfsparkling.com/',
+  url: 'http://www.rfsparkling.com/',
   title: 'Fellow freelancer peers',
 }
 
@@ -101,7 +101,7 @@ const Services = () => (
             <Container>
               <SectionHeading>Services</SectionHeading>
               <GridThree>
-                {SERVICES.map(({title, content}) => (
+                {SERVICES.map(({ title, content }) => (
                   <div key={title}>
                     <h2>{title}</h2>
                     {content()}
@@ -112,7 +112,7 @@ const Services = () => (
             <Background>
               <Container>
                 <GridFour>
-                  {CALLOUT.map(({alt, image, text}) => {
+                  {CALLOUT.map(({ alt, image, text }) => {
                     return (
                       <div key={alt}>
                         <CalloutImgWrapper key={alt}>{image()}</CalloutImgWrapper>
