@@ -63,7 +63,7 @@ const About = () => (
           <GridTwo>
             <div>
               <p className={`mb-5`}>
-                Zoltán Papp is a experienced RF application engineer based in Budapest, Hungary. He has been working since 2005
+                Zoltán Papp is an experienced RF application engineer based in Budapest, Hungary. He has been working since 2005
                 in various RF application engineer positions in Hungary and England.
                 <br />
                 <br />
