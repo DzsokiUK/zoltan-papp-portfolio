@@ -73,7 +73,7 @@ const About = () => (
                 configuration related.
                 <br />
                 <br />
-                He went freelancing in 2020 to embrace  .
+                He went freelancing in 2020 to embrace new technologies.
               </p>
               <ProfileImage>
                 <Img
