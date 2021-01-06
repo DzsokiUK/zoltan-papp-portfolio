@@ -32,7 +32,7 @@ const CALLOUT = [
   {
     alt: 'Icon 4',
     image: Icon4,
-    text: 'For failing or passing products',
+    text: 'For products failing or to be improved',
   },
 ]
 
@@ -57,7 +57,7 @@ const SERVICES = [
   {
     title: 'Debugging',
     content: () => (
-      <p>Helping you finding the root cause of performance issues or failing RF/EMC regulatory testing.</p>
+      <p>Helping you in finding the root cause of performance issues or failing RF/EMC regulatory results.</p>
     ),
   },
   {

@@ -1,11 +1,11 @@
 import React from 'react'
 import styled from 'styled-components'
-import {StaticQuery, graphql} from 'gatsby'
+import { StaticQuery, graphql } from 'gatsby'
 import Img from 'gatsby-image'
 
 import ExternalLink from '@common/ExternalLink'
 
-import {Section, Container} from '@components/global'
+import { Section, Container } from '@components/global'
 
 const EXPERIENCE = [
   {
@@ -26,7 +26,7 @@ const EXPERIENCE = [
   {
     title: 'Test Engineer',
     company: 'Integration Associates Inc.',
-    location_date: '2006 - 2007 / England',
+    location_date: '2006 - 2007 / Hungary',
   },
   {
     title: 'Test Engineer',
@@ -63,17 +63,17 @@ const About = () => (
           <GridTwo>
             <div>
               <p className={`mb-5`}>
-                Zoltán Papp is a senior application engineer based in Budapest, Hungary. He has been working since 2005
-                in various application engineer positions in Hungary and England.
+                Zoltán Papp is a experienced RF application engineer based in Budapest, Hungary. He has been working since 2005
+                in various RF application engineer positions in Hungary and England.
                 <br />
                 <br />
                 In the past years he was a delegate to ETSI (European Telecommunications Standards Institute) allowing
                 him to be up-to-date with European radiofrequency regulations. He set his focus on various radio link
-                weaknesses, performance improvements, achieving certain performance criteria - both hardware or radio
+                weaknesses, performance improvements, achieving certain performance criteria - let it be hardware or radio
                 configuration related.
                 <br />
                 <br />
-                He went freelancing in 2020 to embrace involvement in new technologies.
+                He went freelancing in 2020 to embrace  .
               </p>
               <ProfileImage>
                 <Img
@@ -83,7 +83,7 @@ const About = () => (
               </ProfileImage>
             </div>
             <div className={`align-self-end`}>
-              {EXPERIENCE.map(({title, company, location_date}) => {
+              {EXPERIENCE.map(({ title, company, location_date }) => {
                 return (
                   <div key={company}>
                     <h2>{title}</h2>
@@ -93,7 +93,7 @@ const About = () => (
                   </div>
                 )
               })}
-              {LINKS.map(({name, link, title}) => (
+              {LINKS.map(({ name, link, title }) => (
                 <div key={name}>
                   <ExternalLink href={link} title={title} className={`link`}>
                     {name}
