@@ -37,7 +37,7 @@ const CALLOUT = [
 ]
 
 const LINKS = {
-  url: 'http://www.rfsparkling.com/',
+  url: 'https://www.rfsparkling.com/',
   title: 'Fellow freelancer peers',
 }
 
